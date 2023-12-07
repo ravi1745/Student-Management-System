@@ -1,0 +1,95 @@
+/* Basic CSS styles for the layout */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+header h1:hover {
+  color: cadetblue;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  /* align-items: center; */
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+section h2 {
+  font-size: x-large;
+}
+
+section p {
+  font-size: large;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* .a {
+  display: block;
+
+} */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;  
+}
+
+.row::after{
+  content:attr(center);
+  display: table;
+}
+.cobra {
+  display: block;
+  margin-left: 30%;
+  margin-right: 7%;
+  /* align-content: center; */
+  align-items: center;
+  margin-bottom: 70%;
+}
+
+a {
+  text-decoration: none;
+}
